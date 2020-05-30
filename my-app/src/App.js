@@ -9,7 +9,8 @@ const App = () => {
   return (
     <div>
        <h1>Hello React World</h1>
-       <h2> {/* The curly braces tells the compiler that it should execute the code as JavaScript */}
+       {/* onClick is compiled as JSX and because of the {} after onClick-attribute the code inside {} gets compiled as Javascript */}
+       <h2 onClick={()=> alert("you clicked the message!")}> {/* The curly braces tells the compiler that it should execute the code as JavaScript */}
              {message}
        </h2>
     </div>
