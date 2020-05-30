@@ -1,5 +1,6 @@
 //This brings the React library into scope and gives us access to all the cool features
 import React from "react";
+import './style.css'
 //That's more or less what a component is
 const App = () => {
   //This is what get’s returned from this component
